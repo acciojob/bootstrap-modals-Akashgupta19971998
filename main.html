@@ -12,54 +12,77 @@
 <body>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
-	<div class="model" id="accio-model">
-		<div class="modal-header">
+	<div class="newton-model" id="accio-modal">
+		<div class="modal-header justify-content-center">
 			<h4>New Modal</h4>
+			<button id="open-modal" type="open-button" class="btn-close" data-bs-dismiss="newton-modal"
+				aria-label="Close"></button>
 		</div>
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa doloremque cumque consequatur eaque cum a.
-			Molestiae amet id officia distinctio saepe unde autem ipsam aspernatur, ipsa fugiat impedit illo incidunt
-			illum adipisci quibusdam. Explicabo, ex rem tenetur sunt voluptas officiis dolorem atque provident tempora
-			temporibus deserunt quo tempore, veniam nisi sed? A ullam quisquam, maiores quo quae sapiente est dolorem
-			aliquam! Iusto ipsum aperiam accusantium. Molestiae provident delectus omnis ipsam rem, ratione obcaecati
-			reiciendis minima, quod impedit vel ut illo architecto unde quae illum commodi recusandae. Minima amet
-			maxime facere dignissimos, esse nesciunt explicabo non consequuntur, delectus pariatur, odit ratione.
-			Laborum nemo perferendis rem, animi pariatur repellendus temporibus sequi. Corporis omnis repellat inventore
-			quaerat temporibus, magni commodi ex ipsa, dolores et unde officia dolorum molestias fuga consequuntur!
-			Consequatur officiis officia nobis repellendus hic error impedit eos sunt, alias, voluptatem, harum minima
-			reiciendis tempora facere atque numquam sit voluptas veniam aspernatur fugit natus? Explicabo odio quibusdam
-			magni non repudiandae magnam doloribus obcaecati laboriosam nam, aspernatur iure commodi temporibus
-			voluptatem quae tempora ducimus ullam provident aliquam adipisci. Sit laudantium expedita dicta cum alias
-			libero suscipit doloremque ipsa tempore perspiciatis illo placeat error, rem aperiam voluptatem sequi
-			exercitationem sint dignissimos inventore enim commodi ratione neque. Quisquam, autem officia cumque rem
-			excepturi, minima assumenda id dignissimos veritatis beatae ratione. Quam asperiores atque dolorem vero
-			iusto veniam facilis voluptates, rem, velit tempora delectus dolor dicta. Vitae quam enim vero fugiat
-			exercitationem quia non accusamus vel repellendus nulla dicta recusandae repudiandae fuga quidem voluptatum
-			necessitatibus dolore repellat nesciunt praesentium harum, ab tempora! Exercitationem accusantium,
-			cupiditate hic, nostrum maiores perspiciatis necessitatibus nobis ullam numquam et nam dignissimos tempore
-			rem iste labore eum fugit quam. Corporis cumque magni culpa beatae perferendis eos vero saepe maiores
-			praesentium quis aliquam reiciendis temporibus, itaque, aliquid veritatis. Velit eligendi eos reprehenderit?
-			Consectetur, possimus aliquam praesentium tempora aut architecto sapiente inventore optio illo consequuntur
-			distinctio blanditiis nobis tempore asperiores nam eos, velit quam excepturi at. Ad voluptas veniam omnis
-			enim incidunt perspiciatis iure consectetur velit quasi exercitationem, quos inventore a numquam suscipit
-			necessitatibus laudantium natus debitis vitae quia similique aliquid earum, commodi tempora eveniet? Eius
-			atque autem fuga aliquam temporibus qui vitae sapiente aut doloremque at, debitis molestias ratione optio
-			molestiae totam quod dolore omnis fugiat ipsum. Voluptate labore deserunt eius cum, consectetur nisi sequi
-			at provident doloribus delectus dolorem, explicabo voluptas recusandae facilis aspernatur tempora omnis?
-			Atque laboriosam quia reprehenderit ab nostrum odit laudantium, autem cupiditate, in suscipit quos est
-			soluta voluptate sint consequatur! Corrupti nisi dignissimos vero nulla, expedita laboriosam dolore! Ipsam
-			reiciendis sapiente impedit repudiandae cum, quae nihil excepturi ex hic exercitationem quod voluptates
-			expedita quaerat? Minima, corporis? Deleniti, architecto sapiente? Dolores maxime adipisci laborum facilis
-			iusto, consequatur nesciunt molestias earum in rerum, debitis eveniet doloremque amet aspernatur tempora id
-			expedita. Obcaecati placeat distinctio suscipit itaque aspernatur cupiditate voluptatum dolores corporis
-			minus ducimus. Asperiores nobis ex facilis facere vero dolorum maxime soluta, expedita maiores quibusdam
-			totam perspiciatis nihil quod laborum quis, quia optio odit! Vero cumque minima consequatur accusamus
-			pariatur?</p>
-	</div>
-	<div class="modal-footer" id="open-model">
+		<div id="newton-modal">
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa doloremque cumque consequatur eaque cum a.
+				Molestiae amet id officia distinctio saepe unde autem ipsam aspernatur, ipsa fugiat impedit illo
+				incidunt
+				illum adipisci quibusdam. Explicabo, ex rem tenetur sunt voluptas officiis dolorem atque provident
+				tempora
+				temporibus deserunt quo tempore, veniam nisi sed? A ullam quisquam, maiores quo quae sapiente est
+				dolorem
+				aliquam! Iusto ipsum aperiam accusantium. Molestiae provident delectus omnis ipsam rem, ratione
+				obcaecati
+				reiciendis minima, quod impedit vel ut illo architecto unde quae illum commodi recusandae. Minima amet
+				maxime facere dignissimos, esse nesciunt explicabo non consequuntur, delectus pariatur, odit ratione.
+				Laborum nemo perferendis rem, animi pariatur repellendus temporibus sequi. Corporis omnis repellat
+				inventore
+				quaerat temporibus, magni commodi ex ipsa, dolores et unde officia dolorum molestias fuga consequuntur!
+				Consequatur officiis officia nobis repellendus hic error impedit eos sunt, alias, voluptatem, harum
+				minima
+				reiciendis tempora facere atque numquam sit voluptas veniam aspernatur fugit natus? Explicabo odio
+				quibusdam
+				magni non repudiandae magnam doloribus obcaecati laboriosam nam, aspernatur iure commodi temporibus
+				voluptatem quae tempora ducimus ullam provident aliquam adipisci. Sit laudantium expedita dicta cum
+				alias
+				libero suscipit doloremque ipsa tempore perspiciatis illo placeat error, rem aperiam voluptatem sequi
+				exercitationem sint dignissimos inventore enim commodi ratione neque. Quisquam, autem officia cumque rem
+				excepturi, minima assumenda id dignissimos veritatis beatae ratione. Quam asperiores atque dolorem vero
+				iusto veniam facilis voluptates, rem, velit tempora delectus dolor dicta. Vitae quam enim vero fugiat
+				exercitationem quia non accusamus vel repellendus nulla dicta recusandae repudiandae fuga quidem
+				voluptatum
+				necessitatibus dolore repellat nesciunt praesentium harum, ab tempora! Exercitationem accusantium,
+				cupiditate hic, nostrum maiores perspiciatis necessitatibus nobis ullam numquam et nam dignissimos
+				tempore
+				rem iste labore eum fugit quam. Corporis cumque magni culpa beatae perferendis eos vero saepe maiores
+				praesentium quis aliquam reiciendis temporibus, itaque, aliquid veritatis. Velit eligendi eos
+				reprehenderit?
+				Consectetur, possimus aliquam praesentium tempora aut architecto sapiente inventore optio illo
+				consequuntur
+				distinctio blanditiis nobis tempore asperiores nam eos, velit quam excepturi at. Ad voluptas veniam
+				omnis
+				enim incidunt perspiciatis iure consectetur velit quasi exercitationem, quos inventore a numquam
+				suscipit
+				necessitatibus laudantium natus debitis vitae quia similique aliquid earum, commodi tempora eveniet?
+				Eius
+				atque autem fuga aliquam temporibus qui vitae sapiente aut doloremque at, debitis molestias ratione
+				optio
+				molestiae totam quod dolore omnis fugiat ipsum. Voluptate labore deserunt eius cum, consectetur nisi
+				sequi
+				at provident doloribus delectus dolorem, explicabo voluptas recusandae facilis aspernatur tempora omnis?
+				Atque laboriosam quia reprehenderit ab nostrum odit laudantium, autem cupiditate, in suscipit quos est
+				soluta voluptate sint consequatur! Corrupti nisi dignissimos vero nulla, expedita laboriosam dolore!
+				Ipsam
+				reiciendis sapiente impedit repudiandae cum, quae nihil excepturi ex hic exercitationem quod voluptates
+				expedita quaerat? Minima, corporis? Deleniti, architecto sapiente? Dolores maxime adipisci laborum
+				facilis
+				iusto, consequatur nesciunt molestias earum in rerum, debitis eveniet doloremque amet aspernatur tempora
+				id
+				expedita. Obcaecati placeat distinctio suscipit itaque aspernatur cupiditate voluptatum dolores corporis
+				minus ducimus. Asperiores nobis ex facilis facere vero dolorum maxime soluta, expedita maiores quibusdam
+				totam perspiciatis nihil quod laborum quis, quia optio odit! Vero cumque minima consequatur accusamus
+				pariatur?</p>
+		</div>
+		<div class="modal-footer" id="open-model">
 
-		<button type="button" class="btn btn-primary">Close button</button>
+			<button type="slose-button" class="btn btn-primary">Close button</button>
+		</div>
 	</div>
-
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
